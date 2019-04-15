@@ -1,0 +1,31 @@
+"use strict";
+
+console.log("This works");
+
+var template = React.createElement(
+  "div",
+  null,
+  React.createElement(
+    "p",
+    null,
+    " Apples"
+  ),
+  React.createElement(
+    "p",
+    null,
+    " Oranges"
+  )
+);
+
+var appRoot = document.getElementById('app');
+
+ReactDOM.render(template, appRoot);
+"use strict";
+
+console.log("This works");
+
+var template = React.createElement("div", null, React.createElement("h1", null, " Indecision App"), React.createElement("p", null, " Does this work? "));
+
+var appRoot = document.getElementById('app');
+
+ReactDOM.render(template, appRoot);

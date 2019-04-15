@@ -1,0 +1,53 @@
+{
+  "name": "boilerplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Mustafa Wahid",
+  "license": "MIT",
+  "scripts": {
+    "serve": "live-server public/",
+    "build": "webpack",
+    "build-babel": "babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch",
+    "dev-server": "webpack-dev-server",
+    "test": "jest --config=jest.config.json"
+  },
+  "dependencies": {
+    "@babel/plugin-proposal-object-rest-spread": "^7.3.2",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^24.5.0",
+    "babel-loader": "7.1.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "1.5.2",
+    "css-loader": "2.1.0",
+    "enzyme": "3.9.0",
+    "enzyme-adapter-react-16": "^1.12.1",
+    "enzyme-to-json": "3.0.1",
+    "live-server": "^1.2.1",
+    "moment": "2.24.0",
+    "node-sass": "4.11.0",
+    "normalize.css": "8.0.1",
+    "raf": "3.3.2",
+    "react": "16.8.1",
+    "react-dates": "19.0.3",
+    "react-dom": "16.8.1",
+    "react-modal": "3.8.1",
+    "react-redux": "^6.0.0",
+    "react-router-dom": "4.3.1",
+    "react-test-renderer": "16.0.0",
+    "react-ui-cards": "1.5.0",
+    "redux": "4.0.1",
+    "sass-loader": "7.1.0",
+    "style-loader": "0.23.1",
+    "uuid": "3.3.2",
+    "webpack": "3.1.0",
+    "webpack-dev-server": "2.5.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.4.0",
+    "jest": "^24.1.0"
+  }
+}
