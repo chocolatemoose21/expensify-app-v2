@@ -11,36 +11,6 @@ import './styles/styles.scss';
 
 const store = configureStore();
 
-store.dispatch(addExpense({
-  amount: 50000,
-  description:'Armani Watch',
-  note:'Birthday gift',
-  createdAt: 1000
-}));
-
-store.dispatch(addExpense({
-  amount: 600000,
-  description:'Zegna Suit',
-  note:'Birthday gift',
-  createdAt: 1000
-}));
-
-store.dispatch(addExpense({
-  amount: 60000,
-  description:'Rent',
-  createdAt: 1020
-}));
-
-
-console.log(store.getState());
-
-
-
-//getVisibleExpenses
-const state = store.getState();
-const visibleExpenses = getVisibleExpenses(state.expenses, state.filters);
-console.log(visibleExpenses);
-
 const jsx = (
   <Provider  store={store} >
     <AppRouter/>
@@ -503,10 +473,7 @@ A- Node Modules
 How do we tell GIT to ignore files?
 a)create a file .gitignore in the root of our project
 
+
+
 */
-
-
-
-
-
 */
