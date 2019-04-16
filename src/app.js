@@ -503,5 +503,17 @@ HOW? using a Webpack plugin the webpack.config file.
 1. CSS extractor
 2. Make sure to add it to the webpack plugins array.
 WHAT if any are the common pitfalls?
+//EXPRESS SERVER
+WHY do we need to create an express server?
+a) Less resource usage
+HOW?
+Create a file named server in the root of the directory.
+META youre always creating a new file.
+
+//HEROKU
+You have to teach heroku how to start-up your app.
+You need to teach heroku how to run webpack- how? package.json script
+The script is heroku-postbuild yarn run postbuild
+
 
 */
