@@ -473,7 +473,35 @@ A- Node Modules
 How do we tell GIT to ignore files?
 a)create a file .gitignore in the root of our project
 
+Github account information
+chocolatemoose21@gmail
 
+HOW do you link your project code to github? SSH secure shell using the documentation
+HOW to check if you have an SSH?
+ls -a ~./ssh
+WHAT is an rsa pub file?
+  id_rsa.pub is the public key file
+  id_rsa is like a password
+//PRODUCTION WEBPACK
+WHAT is production webpack?
+HOW is it different than Production different than development webpack?
+Simple production is optimized for size. Smaller the better.
+HOW do you set up production Webpack?
+1. Create a script in the package.json file.
+2. The script is "build:prod":"webpack -p --env production"
+3. Change Webpack config file using module.exports = () => {} function
+4. devTool: isProduction ? 'source-map':'cheap-module-eval-source-map';
 
-*/
+HOW do you run webpack in production mode?
+//SOURCE MAPS
+WHAT are source maps??
+//SCSS files
+WHAT are the steps?
+remove the SCSS files why? Pulling them out into a seperate file allows for
+faster loading
+HOW? using a Webpack plugin the webpack.config file.
+1. CSS extractor
+2. Make sure to add it to the webpack plugins array.
+WHAT if any are the common pitfalls?
+
 */
