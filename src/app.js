@@ -515,5 +515,13 @@ You have to teach heroku how to start-up your app.
 You need to teach heroku how to run webpack- how? package.json script
 The script is heroku-postbuild yarn run postbuild
 
+//REGULAR VS. DEV dependencies
+WHAT is the difference?
+  REGULAR = Local installation and Heroku => Goes to in production
+  DEV = Only Locally => Runs just on local machine
+HOW do you create a dev dependency?
+--dev
+HOW do you add/delete dev dependecies?
+-copy and paste/ cut and paste
 
 */
