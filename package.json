@@ -4,6 +4,9 @@
   "main": "index.js",
   "author": "Mustafa Wahid",
   "license": "MIT",
+  "engines": {
+    "node": "10.15.3"
+  },
   "scripts": {
     "build:dev": "webpack",
     "build:prod": "webpack -p --env production",
@@ -23,6 +26,7 @@
     "babel-jest": "^24.5.0",
     "babel-loader": "7.1.1",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-polyfill": "^7.0.0-beta.3",
     "babel-preset-env": "1.5.2",
     "cross-var": "1.1.0",
     "css-loader": "2.1.0",
@@ -31,6 +35,7 @@
     "express": "4.16.4",
     "extract-text-webpack-plugin": "3.0.0",
     "firebase": "4.2.0",
+    "history": "4.9.0",
     "moment": "2.24.0",
     "node-sass": "4.11.0",
     "normalize.css": "8.0.1",

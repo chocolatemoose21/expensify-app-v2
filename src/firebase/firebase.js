@@ -16,14 +16,16 @@ console.log('this database is working')
 
 const database = firebase.database();
 
-export { firebase, database as default };
+const googleAuthProvider = new firebase.auth.GoogleAuthProvider();
+
+export { firebase, googleAuthProvider, database as default };
 
 // database.ref().set({
 //   name: "Mustafa Wahid",
 //   age: "26",
 //   isSingle: false,
 //   location: {
-//     city: 'Falston',
+//     city: 'Fallston',
 //     state: 'Maryland'
 //   }
 // });

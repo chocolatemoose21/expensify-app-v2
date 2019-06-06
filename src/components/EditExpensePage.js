@@ -6,7 +6,11 @@ import { editExpense, removeExpense } from '../actions/expenses';
 const EditExpensePage = (props) => {
   return(
   <div>
-    <p> This is my Edit expense component </p>
+    <div className = "content-container">
+      <div>
+        <h1> Edit Expense</h1>
+      </div>
+
     <ExpenseForm
       expense = {props.expense}
       onSubmit={(expense) => {
@@ -14,10 +18,13 @@ const EditExpensePage = (props) => {
         props.history.push('/')
       }}
       />
-      <button onClick = {(e) => {
+      <button
+        className = "button--secondary"
+        onClick = {(e) => {
           props.dispatch(removeExpense({id:props.expense.id}));
           props.history.push('/')
           }}>Remove</button>
+      </div>
   </div>
 )
 };
